@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Chat - Snap, Crackle, K-pop!</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Quicksand&display=swap" rel="stylesheet">
+  <style>
+    .chat-box {
+      max-width: 600px;
+      margin: 2rem auto;
+      background-color: var(--pastel-purple);
+      border-radius: 15px;
+      padding: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .chat-message {
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 15px;
+      max-width: 75%;
+      line-height: 1.4;
+    }
+
+    .user {
+      background-color: var(--bright-pink);
+      color: white;
+      align-self: flex-end;
+      margin-left: auto;
+    }
+
+    .agent {
+      background-color: var(--pastel-blue);
+      color: black;
+      align-self: flex-start;
+    }
+
+    .chat-log {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .chat-input {
+      margin-top: 1rem;
+      display: flex;
+      gap: 10px;
+    }
+
+    .chat-input input {
+      flex-grow: 1;
+      padding: 0.5rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    .chat-input button {
+      padding: 0.5rem 1rem;
+      background-color: var(--accent-purple);
+      color: white;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="img/banner3.png" alt="Snap, Crackle, K-pop banner" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-content">
+      <h1 style="text-align: center;">Customer Support Chat</h1>
+      <div class="chat-box">
+        <div class="chat-log">
+          <div class="chat-message agent">Hi there! 👋 How can I help you today?</div>
+          <div class="chat-message user">I want to check if my order shipped yet.</div>
+          <div class="chat-message agent">Let me check for you... 🧐</div>
+          <div class="chat-message agent">It looks like your order is on its way! 🚚💿</div>
+        </div>
+
+        <div class="chat-input">
+          <input type="text" placeholder="Type your message..." disabled />
+          <button disabled>Send</button>
+        </div>
+        <p style="text-align:center; font-size: 0.9rem; margin-top: 1rem;"><em>This is a demo chat UI only. No real messages are sent.</em></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Snap, Crackle, K-pop!</p>
+    <nav class="footer-links">
+      <a href="order-status.html">Order Status</a> |
+      <a href="chat.html">Chat</a> |
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
