@@ -1,0 +1,134 @@
+:root {
+    --pastel-blue: #d6eaff;
+    --pastel-purple: #dec0fe;
+    --pastel-pink: #fedfee;
+    --accent-purple: #965bce;
+    --soft-yellow: #fff3d3;
+    --bright-pink: #fea9dc;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    background-color: var(--pastel-pink);
+    color: #333;
+  }
+  
+  h1 {
+    font-family: "Fredoka", sans-serif;
+    color: var(--accent-purple);
+    font-weight: bold;
+    font-size: 75px;
+  }
+  
+  h2 {
+    font-family: "Quicksand", sans-serif;
+    color: var(--pastel-blue);
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  
+  header img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: var(--pastel-purple);
+    padding: 10px;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: var(--accent-purple);
+    font-weight: bold;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: var(--accent-purple);
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: var(--pastel-blue);
+    color: white;
+  }
+  
+  
+  .hero {
+    text-align: center;
+    background-color: var(--pastel-blue);
+    padding: 2rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--bright-pink);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .featured-products {
+    background-color: var(--soft-yellow);
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .album-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .album-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 1rem;
+    width: 200px;
+  }
+  
+  .album-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .about-preview {
+    background-color: var(--pastel-pink);
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: var(--pastel-purple);
+    text-align: center;
+    padding: 1rem;
+    font-size: 14px;
+  }
+  
+  footer a {
+    color: var(--accent-purple);
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  
